@@ -55,6 +55,7 @@ const Hero = () => (
               <input
                 type="image"
                 src="/assets/badges/apple-appstore-de.png"
+                alt="EHW+ im Apple App Store"
                 height={height}
               />
             </a>
@@ -66,6 +67,7 @@ const Hero = () => (
               <input
                 type="image"
                 src="/assets/badges/google-playstore-de.png"
+                alt="EHW+ im Google PlayStore"
                 height={height}
               />
             </a>
@@ -77,6 +79,7 @@ const Hero = () => (
               <input
                 type="image"
                 src="/assets/badges/huawei-appgallery-en.png"
+                alt="EHW+ in der Huawei AppGallery"
                 height={height}
               />
             </a>
@@ -88,6 +91,7 @@ const Hero = () => (
               <input
                 type="image"
                 src="/assets/badges/webapp-badge-de.png"
+                alt="EHW+ im Browser nutzen"
                 height={height}
               />
             </a>
