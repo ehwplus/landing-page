@@ -3,6 +3,8 @@ import { ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { noOpLoader } from '../image_loaders';
+
 export type Badge = {
   height: number;
   width: number;
@@ -38,7 +40,14 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
           return (
             <Link key={`badge-${index}`} href={href}>
               <a>
-                <Image src={src} alt={alt} height={height} width={width} />
+                <Image
+                  src={src}
+                  alt={alt}
+                  height={height}
+                  width={width}
+                  loader={noOpLoader}
+                  unoptimized={true}
+                />
               </a>
             </Link>
           );
