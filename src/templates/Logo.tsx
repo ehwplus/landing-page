@@ -1,5 +1,6 @@
 type ILogoProps = {
   xl?: boolean;
+  invert?: boolean;
 };
 
 const Logo = (props: ILogoProps) => {
@@ -7,9 +8,10 @@ const Logo = (props: ILogoProps) => {
   const fontStyle = props.xl
     ? 'font-semibold text-3xl'
     : 'font-semibold text-xl';
+  const fontColor = props.invert ? 'text-gray-600' : 'text-gray-900';
 
   return (
-    <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
+    <span className={` inline-flex items-center ${fontStyle} ${fontColor}`}>
       <img
         src="/assets/images/logo.png"
         height={size}

@@ -1,10 +1,6 @@
-import Link from 'next/link';
-
 import { Background } from '../background/Background';
 import { Badge, HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 
 // const height: number = 60;
 // const maxWidth: number = height * 3.4;
@@ -41,22 +37,7 @@ const badges: Badge[] = [
 
 const Hero = () => (
   <Background color="bg-gray-100">
-    <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Sign in</a>
-          </Link>
-        </li>
-      </NavbarTwoColumns>
-    </Section>
-
-    <Section yPadding="pt-20 pb-32">
+    <Section yPadding="pt-10 pb-32">
       <HeroOneButton
         title={
           <>
