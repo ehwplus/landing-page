@@ -18,16 +18,14 @@ const Base = () => (
       <Section yPadding="py-6">
         <NavbarTwoColumns logo={<Logo xl invert />}>
           <li>
-            <Link href="https://ehwplus.web.app">
-              <a className="text-gray-600">Zur WebApp</a>
+            <Link href="https://ehwplus.page.link/install">
+              <a target="_blank" className="text-black-500">
+                JETZT INSTALLIEREN
+              </a>
             </Link>
           </li>
         </NavbarTwoColumns>
         <Section>
-          <br />
-          <br />
-          <br />
-          <br />
           <br />
           <br />
           <br />

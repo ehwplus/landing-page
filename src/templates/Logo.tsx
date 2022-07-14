@@ -8,10 +8,10 @@ const Logo = (props: ILogoProps) => {
   const fontStyle = props.xl
     ? 'font-semibold text-3xl'
     : 'font-semibold text-xl';
-  const fontColor = props.invert ? 'text-gray-600' : 'text-gray-900';
+  const fontColor = props.invert ? 'text-black-500' : 'text-gray-900';
 
   return (
-    <span className={` inline-flex items-center ${fontStyle} ${fontColor}`}>
+    <span className={` inline-flex items-center ${fontStyle}`}>
       <img
         src="/assets/images/logo.png"
         height={size}
@@ -20,7 +20,7 @@ const Logo = (props: ILogoProps) => {
       />
       &nbsp;
       <>
-        {'EHW'}
+        <span className={`${fontColor}`}>EHW</span>
         <span className="text-primary-500">+</span>
       </>
     </span>

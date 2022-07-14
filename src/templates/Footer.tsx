@@ -65,23 +65,13 @@ const Footer = () => (
         }
       >
         <li>
-          <Link href="/">
-            <a>Home</a>
+          <Link href="/#/privacy">
+            <a>Datenschutz</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Docs</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
+            <a>Impressum</a>
           </Link>
         </li>
       </CenteredFooter>

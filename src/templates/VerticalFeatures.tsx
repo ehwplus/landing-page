@@ -3,14 +3,15 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Wichtigste Funktionen"
-    description="Wissen ist Macht. Wer seinen Verbrauch kennt, kann auch einschätzen, ob Sparmaßnahmen etwas bringen."
+    title="Was bringt die App?"
+    description="Wer seinen Verbrauch kennt, weiß, welche Kosten auf ihn zukommen und kann auch einschätzen, ob Sparmaßnahmen etwas bringen."
   >
     <VerticalFeatureRow
       title="Alle Zähler in einer App"
       description="Strom (auch HT-/NT), Gas, Kalt- und Warmwasser + Wasserabzugszähler, Öltanks, Heizkörper mit Verdunster, PV-Anlagen. In dieser Zählerstands-App haben sie alle ihren Platz."
       image="/assets/images/feature.svg"
       imageAlt="First feature alt text"
+      reverse
     />
     <VerticalFeatureRow
       title="Kostenüberblick"

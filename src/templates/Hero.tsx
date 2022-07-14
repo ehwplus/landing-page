@@ -43,22 +43,14 @@ const Hero = () => (
           <>
             {'EHW'}
             <span className="text-primary-500">+</span>
+            {' Zählerstands-App'}
           </>
         }
         subtitle={
           <>
-            {'Die Nebenkosten steigen, die EHW'}
+            {'Die Nebenkosten steigen. Haben Sie Ihren Verbrauch im Blick? EHW'}
             <span className="text-primary-500">+</span>
-            {' Zählerstands-App hilft beim Sparen!'}
-          </>
-        }
-        description={
-          <>
-            {'Hezrlich Willkommen bei EHW'}
-            <span className="text-primary-500">+</span>
-            {
-              ', Ihrer Zählerstands-App für Elektrizität, Heizung und Wasser. Mit uns können Sie kostenlos und unkompliziert nachvollziehen, wie viel zu verbrauchen und was es kostet.'
-            }
+            {' sagt, was es kostet und hilft beim Sparen!'}
           </>
         }
         command="Jetzt die App holen:"

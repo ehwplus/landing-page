@@ -11,6 +11,7 @@ const CatHeader = (props: IBackgroundProps) => (
       backgroundRepeat: `no-repeat`,
       backgroundSize: `cover`,
       width: '100%',
+      maxHeight: '200',
     }}
   >
     {props.children}
