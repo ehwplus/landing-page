@@ -1,12 +1,44 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { HeroOneButton } from '../hero/HeroOneButton';
+import { Badge, HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const height: number = 60;
+const maxWidth: number = height * 3.4;
+const dims = {
+  height,
+  width: maxWidth,
+};
+const badges: Badge[] = [
+  {
+    href: 'https://apps.apple.com/app/id1548922124',
+    src: '/assets/badges/apple-appstore-de.png',
+    alt: 'EHW+ im Apple App Store',
+    ...dims,
+  },
+  {
+    href: 'https://play.google.com/store/apps/details?id=com.ehwplus',
+    src: '/assets/badges/google-playstore-de.png',
+    alt: 'EHW+ im Google PlayStore',
+    ...dims,
+  },
+  {
+    href: 'https://appgallery.huawei.com/#/app/C103698699',
+    src: '/assets/badges/huawei-appgallery-en.png',
+    alt: 'EHW+ in der Huawei AppGallery',
+    ...dims,
+  },
+  {
+    href: 'https://ehwplus.web.app',
+    src: '/assets/badges/webapp-badge-de.png',
+    alt: 'EHW+ im Browser nutzen',
+    ...dims,
+  },
+];
+
 const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
@@ -49,54 +81,7 @@ const Hero = () => (
           </>
         }
         command="Jetzt die App holen:"
-        badgeApple={
-          <Link href="https://apps.apple.com/app/id1548922124">
-            <a>
-              <input
-                type="image"
-                src="/assets/badges/apple-appstore-de.png"
-                alt="EHW+ im Apple App Store"
-                height={height}
-              />
-            </a>
-          </Link>
-        }
-        badgeGoogle={
-          <Link href="https://play.google.com/store/apps/details?id=com.ehwplus">
-            <a>
-              <input
-                type="image"
-                src="/assets/badges/google-playstore-de.png"
-                alt="EHW+ im Google PlayStore"
-                height={height}
-              />
-            </a>
-          </Link>
-        }
-        badgeHuawei={
-          <Link href="https://appgallery.huawei.com/#/app/C103698699">
-            <a>
-              <input
-                type="image"
-                src="/assets/badges/huawei-appgallery-en.png"
-                alt="EHW+ in der Huawei AppGallery"
-                height={height}
-              />
-            </a>
-          </Link>
-        }
-        badgeWebApp={
-          <Link href="https://ehwplus.web.app">
-            <a>
-              <input
-                type="image"
-                src="/assets/badges/webapp-badge-de.png"
-                alt="EHW+ im Browser nutzen"
-                height={height}
-              />
-            </a>
-          </Link>
-        }
+        badges={badges}
       />
     </Section>
   </Background>
