@@ -6,36 +6,36 @@ import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
-const height: number = 60;
-const maxWidth: number = height * 3.4;
-const dims = {
-  height,
-  width: maxWidth,
-};
+// const height: number = 60;
+// const maxWidth: number = height * 3.4;
+// const dims = {
+//  height,
+//  width: maxWidth,
+// };
 const badges: Badge[] = [
   {
     href: 'https://apps.apple.com/app/id1548922124',
     src: '/assets/badges/apple-appstore-de.png',
     alt: 'EHW+ im Apple App Store',
-    ...dims,
+    ...{ height: 60, width: 204 },
   },
   {
     href: 'https://play.google.com/store/apps/details?id=com.ehwplus',
     src: '/assets/badges/google-playstore-de.png',
     alt: 'EHW+ im Google PlayStore',
-    ...dims,
+    ...{ height: 60, width: 201 },
   },
   {
     href: 'https://appgallery.huawei.com/#/app/C103698699',
     src: '/assets/badges/huawei-appgallery-en.png',
     alt: 'EHW+ in der Huawei AppGallery',
-    ...dims,
+    ...{ height: 60, width: 200 },
   },
   {
     href: 'https://ehwplus.web.app',
     src: '/assets/badges/webapp-badge-de.png',
     alt: 'EHW+ im Browser nutzen',
-    ...dims,
+    ...{ height: 60, width: 173 },
   },
 ];
 
