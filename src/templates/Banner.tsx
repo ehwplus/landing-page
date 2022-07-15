@@ -9,7 +9,7 @@ const Banner = () => (
     <CTABanner
       title={
         <>
-          {'Schon viele tausend Nutzer schwören auf EHW'}
+          {'Schon viele tausend Nutzer vertrauen EHW'}
           <span className="text-primary-500">+</span>
           {'.'}
         </>
