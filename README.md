@@ -1,4 +1,4 @@
-# Landing Page Template built with Next JS 12+, Tailwind CSS 3 and TypeScript
+# EHW+, Ihre Zählerstands-App für iOS/Android
 
 <p align="center">
   <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/nextjs-landing-page-banner.png?raw=true" alt="Next js starter banner"></a>

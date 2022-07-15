@@ -35,7 +35,7 @@ const badges: Badge[] = [
   },
 ];
 
-const Hero = () => (
+const TitleClaimAndAppStoreBadges = () => (
   <Background color="bg-gray-100">
     <Section yPadding="pt-10 pb-32">
       <HeroOneButton
@@ -60,4 +60,4 @@ const Hero = () => (
   </Background>
 );
 
-export { Hero };
+export { TitleClaimAndAppStoreBadges };
