@@ -8,7 +8,7 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Alle Zähler in einer App"
-      description="Strom (auch HT-/NT), Gas, Kalt- und Warmwasser und Wasserabzugszähler, Öltanks, Heizkörper mit Verdunster, Photovoltaik-Anlagen. In dieser Zählerstands-App haben sie alle ihren Platz."
+      description="Strom (auch HT-/NT), Gas, Kalt- und Warmwasser und Wasserabzugszähler, Öltanks, Heizkörper mit Verdunster, Photovoltaik-Anlagen. In dieser Zählerstands-App haben sie alle ihren Platz. Auch nach einem Anbieterwechsel behalten Sie alle Zählerstände und fangen nicht wieder bei null an. Es können beliebig viele Zähler angelegt werden und es ist keine Anmeldung erforderlich."
       image="/assets/images/feature.svg"
       imageAlt="Alle Zähler in einer App"
       reverse
@@ -21,7 +21,7 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="Ihre Zählerstände auf allen Geräten"
-      description="Sie haben mehrere Geräte, z.B. ein Android-Smartphone und einen iPad und einen PC? Kein Problem, wenn Sie es möchten, werden Ihre Daten über Google Drive synchronisiert. Sogar das Teilen mit Mitbewohnern ist möglich."
+      description="Sie haben mehrere Geräte, z.B. ein Android-Smartphone und einen iPad und einen PC? Kein Problem, wenn Sie es möchten, werden Ihre Daten über Google Drive synchronisiert. Sogar das Teilen und gemeinsame Bearbeiten mit Mitbewohnern ist möglich. Selbstverständlich haben niemals Dritte Zugriff auf ihre Verbrauchsdaten. Die App gibt Ihre Daten an niemanden weiter."
       image="/assets/images/feature3.svg"
       imageAlt="Ihre Zählerstände auf allen Geräten"
       reverse
