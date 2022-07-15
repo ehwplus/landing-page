@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
 type ICTABannerProps = {
-  title: string;
+  title: ReactNode;
   subtitle: string;
   button: ReactNode;
 };

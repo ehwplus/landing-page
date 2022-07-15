@@ -7,8 +7,14 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Schon viele tausend Nutzer schwören auf EHW+,"
-      subtitle="überzeugen Sie sich jetzt selbst."
+      title={
+        <>
+          {'Schon viele tausend Nutzer schwören auf EHW'}
+          <span className="text-primary-500">+</span>
+          {'.'}
+        </>
+      }
+      subtitle="Sie auch?"
       button={
         <Link href="https://ehwplus.page.link/install">
           <a target="_blank">

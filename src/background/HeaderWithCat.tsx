@@ -10,6 +10,7 @@ const CatHeader = (props: IBackgroundProps) => (
       backgroundImage: `url(https://ehwplus.web.app/assets/images/cat.jpeg)`,
       backgroundRepeat: `no-repeat`,
       backgroundSize: `cover`,
+      backgroundPosition: `center`,
       width: '100%',
       maxHeight: '200',
     }}

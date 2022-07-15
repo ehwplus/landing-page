@@ -65,12 +65,17 @@ const Footer = () => (
         }
       >
         <li>
-          <Link href="/#/privacy">
+          <Link href="https://ehwplus.web.app/#/privacy">
             <a>Datenschutz</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="https://ehwplus.web.app/#/terms">
+            <a>Nutzungsbestimmungen</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://ehwplus.web.app/#/imprint">
             <a>Impressum</a>
           </Link>
         </li>
