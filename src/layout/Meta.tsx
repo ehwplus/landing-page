@@ -51,16 +51,22 @@ const Meta = (props: IMetaProps) => {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'http://schema.org',
-              '@type': 'Product',
+              '@type': ['SoftwareApplication', 'MobileApplication'],
+              applicationCategory: 'UtilitiesApplication',
               name: 'EHW+ App',
               description:
                 'Die Nebenkosten steigen. Haben Sie den Verbrauch im Blick? Mit der EHW+ Zählerstands-App schon.',
+              operatingSystem: ['Android', 'iOS', 'Windows', 'OSX', 'Linux'],
               image: [
                 'https://image.winudf.com/v2/image1/Y29tLmVod3BsdXNfc2NyZWVuX3poLUNOXzFfMTYxMDIyNTI1OV8wOTA/screen-1.jpg?fakeurl=1&type=.jpg',
               ],
               brand: {
                 '@type': 'Brand',
                 name: 'EHW+',
+              },
+              offers: {
+                '@type': 'Offer',
+                price: '0',
               },
               email: 'mailto:info@ehwplus.com',
               url: 'https://www.ehwplus.com',
