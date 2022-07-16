@@ -46,6 +46,15 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
+        <meta property="og:title" content="EHW+ Zählerstandsapp" />
+        <meta
+          property="og:description"
+          content="Die Nebenkosten steigen. Haben Sie Verbrauch und Kosten im Blick? Mit EHW+ schon."
+        />
+        <meta
+          property="og:image"
+          content="https://image.winudf.com/v2/image1/Y29tLmVod3BsdXNfc2NyZWVuX3poLUNOXzFfMTYxMDIyNTI1OV8wOTA/screen-1.jpg?fakeurl=1&type=.jpg"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
