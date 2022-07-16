@@ -46,6 +46,37 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'http://schema.org',
+              '@type': 'Product',
+              name: 'EHW+ App',
+              description:
+                'Die Nebenkosten steigen. Haben Sie den Verbrauch im Blick? Mit der EHW+ Zählerstands-App schon.',
+              image: [
+                'https://image.winudf.com/v2/image1/Y29tLmVod3BsdXNfc2NyZWVuX3poLUNOXzFfMTYxMDIyNTI1OV8wOTA/screen-1.jpg?fakeurl=1&type=.jpg',
+              ],
+              brand: {
+                '@type': 'Brand',
+                name: 'EHW+',
+              },
+              email: 'mailto:info@ehwplus.com',
+              url: 'https://www.ehwplus.com',
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '4.8',
+                reviewCount: '312',
+                itemReviewed: {
+                  '@type': 'Thing',
+                  url: 'https://play.google.com/store/apps/details?id=com.ehwplus',
+                  alternateName: 'EHW+ Android',
+                },
+              },
+            }),
+          }}
+        />
       </Head>
       <NextSeo
         title={props.title}

@@ -4,5 +4,4 @@ export const AppConfig = {
   description:
     'EHW+, EHWplus, EHW plus, Zählerstände, Nebenkosten, Strom, Stromkosten, Gas, Gaskosten, Erdgas, Öl, Fernwärme, Wasser, Heizung, Sparen',
   locale: 'de',
-  install_now: 'JETZT INSTALLIEREN',
 };
