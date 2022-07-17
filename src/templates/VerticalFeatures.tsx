@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Was bringt die App?"
+    title="Was bringt die EHW+ App?"
     description="Noch nie waren die Strom- und Gaskosten höher. Wer seinen Verbrauch kennt, weiß, welche Kosten auf ihn zukommen und kann auch einschätzen, ob Sparmaßnahmen etwas bringen. Die Nebenkostenabrechnung ist dann keine Überraschung mehr."
   >
     <VerticalFeatureRow

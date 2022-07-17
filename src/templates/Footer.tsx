@@ -15,6 +15,11 @@ import { Logo } from './Logo';
 </Link>
  */
 
+/*
+flex gap-2 justify-center font-medium text-xl text-gray-800
+navbar mt-5 flex flex-row justify-center font-medium text-xl text-gray-800
+flex flex-row gap-2 justify-center flex-wrap
+*/
 const Footer = () => (
   <Background color="bg-gray-100">
     <Section>
@@ -64,21 +69,27 @@ const Footer = () => (
           </>
         }
       >
-        <li>
+        <div
+          className={
+            'flex flex-row gap-5 mt-5 justify-center flex-wrap font-medium text-lg text-gray-800'
+          }
+        >
+          <Link href="https://ehwplus.web.app/#/features">
+            <a>Feature-Umfrage</a>
+          </Link>
+          <Link href="https://ehwplus.web.app/#/faq">
+            <a>Häufig gestellte Fragen</a>
+          </Link>
           <Link href="https://ehwplus.web.app/#/privacy">
             <a>Datenschutz</a>
           </Link>
-        </li>
-        <li>
           <Link href="https://ehwplus.web.app/#/terms">
             <a>Nutzungsbestimmungen</a>
           </Link>
-        </li>
-        <li>
           <Link href="https://ehwplus.web.app/#/imprint">
             <a>Impressum</a>
           </Link>
-        </li>
+        </div>
       </CenteredFooter>
     </Section>
   </Background>
