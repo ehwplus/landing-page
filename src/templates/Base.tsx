@@ -4,6 +4,7 @@ import { Strings } from '../utils/Strings';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { CatHeader } from './HeaderWithCat';
+import { Reviews } from './Reviews';
 import { TitleClaimAndAppStoreBadges } from './TitleClaimAndAppStoreBadges';
 import { VerticalFeatures } from './VerticalFeatures';
 
@@ -14,6 +15,7 @@ const Base = () => (
     <TitleClaimAndAppStoreBadges />
     <VerticalFeatures />
     <Banner />
+    <Reviews />
     <Footer />
   </div>
 );

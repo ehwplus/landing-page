@@ -24,7 +24,7 @@ const CatHeader = (props: IBackgroundProps) => (
         <li>
           <Link href="https://ehwplus.page.link/install">
             <a target="_blank" className="text-black-500">
-              {props.textInstallNow}
+              <strong>{props.textInstallNow}</strong>
             </a>
           </Link>
         </li>

@@ -46,7 +46,7 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
-        <meta property="og:title" content="EHW+ Zählerstandsapp" />
+        <meta property="og:title" content="EHW+ Zählerstands-App" />
         <meta
           property="og:description"
           content="Die Nebenkosten steigen. Haben Sie Verbrauch und Kosten im Blick? Mit EHW+ schon."

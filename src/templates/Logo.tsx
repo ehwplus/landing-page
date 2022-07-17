@@ -17,11 +17,16 @@ const Logo = (props: ILogoProps) => {
         height={size}
         width={size}
         alt="EHW+ Logo"
+        title="EHW plus Logo"
       />
       &nbsp;
       <>
-        <span className={`${fontColor}`}>EHW</span>
-        <span className="text-primary-500">+</span>
+        <span className={`${fontColor}`}>
+          <strong>EHW</strong>
+        </span>
+        <span className="text-primary-500">
+          <strong>+</strong>
+        </span>
       </>
     </span>
   );
