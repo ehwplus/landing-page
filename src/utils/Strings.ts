@@ -1,3 +1,3 @@
 export const Strings = {
-  install_now: 'JETZT INSTALLIEREN',
+  install_now: 'JETZT INSTALLIEREN!',
 };
