@@ -10,7 +10,12 @@ const PlayReview = (props: IReviewProps) => (
   <div style={{ paddingTop: '1.5%', paddingBottom: '1.5%' }}>
     <header data-review-id={props.reviewId}>
       <div className={'flex gap-2'} style={{ paddingRight: '2.5%' }}>
-        <img src={props.imageUrl} alt={props.author} /> {props.author}
+        <img
+          style={{ borderRadius: '50%' }}
+          src={props.imageUrl}
+          alt={props.author}
+        />{' '}
+        {props.author}
       </div>
       <div style={{ paddingTop: '0.5%', paddingBottom: '0.5%' }}>
         ⭐⭐⭐⭐⭐ <span>{props.date}</span>
